@@ -44,9 +44,78 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\HDirection.cs" />
+    <Compile Include="Controls\HTrackBar.cs" />
+    <Compile Include="Controls\HTrackBar.Designer.cs">
+      <DependentUpon>HTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HTrackBar.Direction.cs">
+      <DependentUpon>HTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HTrackBar.MaxValue.cs">
+      <DependentUpon>HTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HTrackBar.MinValue.cs">
+      <DependentUpon>HTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HTrackBar.OnMouse.cs">
+      <DependentUpon>HTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HTrackBar.OnPaint.cs">
+      <DependentUpon>HTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HTrackBar.PercentageValue.cs">
+      <DependentUpon>HTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HTrackBar.UpdateUI.cs">
+      <DependentUpon>HTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HTrackBar.Value.cs">
+      <DependentUpon>HTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HTrackBar.ValueChanged.cs">
+      <DependentUpon>HTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VDirection.cs" />
+    <Compile Include="Controls\VTrackBar.cs" />
+    <Compile Include="Controls\VTrackBar.Designer.cs">
+      <DependentUpon>VTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VTrackBar.Direction.cs">
+      <DependentUpon>VTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VTrackBar.MaxValue.cs">
+      <DependentUpon>VTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VTrackBar.MinValue.cs">
+      <DependentUpon>VTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VTrackBar.OnMouse.cs">
+      <DependentUpon>VTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VTrackBar.OnPaint.cs">
+      <DependentUpon>VTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VTrackBar.PercentageValue.cs">
+      <DependentUpon>VTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VTrackBar.UpdateUI.cs">
+      <DependentUpon>VTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VTrackBar.Value.cs">
+      <DependentUpon>VTrackBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VTrackBar.ValueChanged.cs">
+      <DependentUpon>VTrackBar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
