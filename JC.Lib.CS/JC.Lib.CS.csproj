@@ -112,10 +112,27 @@
     <Compile Include="Controls\VTrackBar.ValueChanged.cs">
       <DependentUpon>VTrackBar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Development\DotnetFramework.cs" />
+    <Compile Include="Development\DotnetFramework.Install.cs">
+      <DependentUpon>DotnetFramework.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Development\DotnetFramework.Items.cs">
+      <DependentUpon>DotnetFramework.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Development\DotnetFramework.Name.cs">
+      <DependentUpon>DotnetFramework.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Development\DotnetFramework.ServicePack.cs">
+      <DependentUpon>DotnetFramework.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Development\DotnetFramework.Version.cs">
+      <DependentUpon>DotnetFramework.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controls" />
+    <Folder Include="Development" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
