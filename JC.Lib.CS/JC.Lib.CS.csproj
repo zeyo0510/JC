@@ -48,6 +48,10 @@
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\GraphicsExtensions.cs" />
+    <Compile Include="Common\GraphicsExtensions.FillRoundedRectangle.cs">
+      <DependentUpon>GraphicsExtensions.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\HDirection.cs" />
     <Compile Include="Controls\HTrackBar.cs" />
     <Compile Include="Controls\HTrackBar.Designer.cs">
@@ -133,6 +137,7 @@
   <ItemGroup>
     <Folder Include="Controls" />
     <Folder Include="Development" />
+    <Folder Include="Common" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
