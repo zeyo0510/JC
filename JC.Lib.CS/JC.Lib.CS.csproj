@@ -84,6 +84,22 @@
     <Compile Include="Controls\HTrackBar.ValueChanged.cs">
       <DependentUpon>HTrackBar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\MinePanel.cs" />
+    <Compile Include="Controls\MinePanel.Designer.cs">
+      <DependentUpon>MinePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MinePanel.OnPaint.cs">
+      <DependentUpon>MinePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MinePanel.Panel1.cs">
+      <DependentUpon>MinePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MinePanel.Panel2.cs">
+      <DependentUpon>MinePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MinePanel.UpdateUI.cs">
+      <DependentUpon>MinePanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\VDirection.cs" />
     <Compile Include="Controls\VTrackBar.cs" />
     <Compile Include="Controls\VTrackBar.Designer.cs">
