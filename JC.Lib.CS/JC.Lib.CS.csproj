@@ -53,6 +53,34 @@
       <DependentUpon>GraphicsExtensions.cs</DependentUpon>
     </Compile>
     <Compile Include="Controls\HDirection.cs" />
+    <Compile Include="Controls\HProgressBar.cs" />
+    <Compile Include="Controls\HProgressBar.Designer.cs">
+      <DependentUpon>HProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HProgressBar.Direction.cs">
+      <DependentUpon>HProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HProgressBar.MaxValue.cs">
+      <DependentUpon>HProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HProgressBar.MinValue.cs">
+      <DependentUpon>HProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HProgressBar.OnPaint.cs">
+      <DependentUpon>HProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HProgressBar.PercentageValue.cs">
+      <DependentUpon>HProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HProgressBar.UpdateUI.cs">
+      <DependentUpon>HProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HProgressBar.Value.cs">
+      <DependentUpon>HProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\HProgressBar.ValueChanged.cs">
+      <DependentUpon>HProgressBar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\HTrackBar.cs" />
     <Compile Include="Controls\HTrackBar.Designer.cs">
       <DependentUpon>HTrackBar.cs</DependentUpon>
@@ -101,6 +129,34 @@
       <DependentUpon>MinePanel.cs</DependentUpon>
     </Compile>
     <Compile Include="Controls\VDirection.cs" />
+    <Compile Include="Controls\VProgressBar.cs" />
+    <Compile Include="Controls\VProgressBar.Designer.cs">
+      <DependentUpon>VProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VProgressBar.Direction.cs">
+      <DependentUpon>VProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VProgressBar.MaxValue.cs">
+      <DependentUpon>VProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VProgressBar.MinValue.cs">
+      <DependentUpon>VProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VProgressBar.OnPaint.cs">
+      <DependentUpon>VProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VProgressBar.PercentageValue.cs">
+      <DependentUpon>VProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VProgressBar.UpdateUI.cs">
+      <DependentUpon>VProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VProgressBar.Value.cs">
+      <DependentUpon>VProgressBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\VProgressBar.ValueChanged.cs">
+      <DependentUpon>VProgressBar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\VTrackBar.cs" />
     <Compile Include="Controls\VTrackBar.Designer.cs">
       <DependentUpon>VTrackBar.cs</DependentUpon>

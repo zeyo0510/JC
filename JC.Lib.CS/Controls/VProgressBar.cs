@@ -3,9 +3,9 @@ using System.Windows.Forms;
 /************************************************/
 namespace JC.Lib.CS.Controls
 {
-  public partial class VTrackBar : Control
+  public partial class VProgressBar : Control
   {
-    public VTrackBar()
+    public VProgressBar()
     {
       this.InitializeComponent();
       /************************************************/
