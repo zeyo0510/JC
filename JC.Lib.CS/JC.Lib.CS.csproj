@@ -52,6 +52,10 @@
     <Compile Include="Common\GraphicsExtensions.FillRoundedRectangle.cs">
       <DependentUpon>GraphicsExtensions.cs</DependentUpon>
     </Compile>
+    <Compile Include="Common\IconHelper.cs" />
+    <Compile Include="Common\IconHelper.ExtractIconFromDll.cs">
+      <DependentUpon>IconHelper.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\HDirection.cs" />
     <Compile Include="Controls\HProgressBar.cs" />
     <Compile Include="Controls\HProgressBar.Designer.cs">
