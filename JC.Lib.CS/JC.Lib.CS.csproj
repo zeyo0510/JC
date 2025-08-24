@@ -56,6 +56,10 @@
     <Compile Include="Common\IconHelper.ExtractIconFromDll.cs">
       <DependentUpon>IconHelper.cs</DependentUpon>
     </Compile>
+    <Compile Include="Common\StringHelper.cs" />
+    <Compile Include="Common\StringHelper.GetUserDisplayName.cs">
+      <DependentUpon>StringHelper.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\HDirection.cs" />
     <Compile Include="Controls\HProgressBar.cs" />
     <Compile Include="Controls\HProgressBar.Designer.cs">
