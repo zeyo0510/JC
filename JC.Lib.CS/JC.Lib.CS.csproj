@@ -212,12 +212,20 @@
     <Compile Include="Development\DotnetFramework.Version.cs">
       <DependentUpon>DotnetFramework.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mathematics\Extremum.cs" />
+    <Compile Include="Mathematics\Extremum.Maximum.cs">
+      <DependentUpon>Extremum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mathematics\Extremum.Minimum.cs">
+      <DependentUpon>Extremum.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controls" />
     <Folder Include="Development" />
     <Folder Include="Common" />
+    <Folder Include="Mathematics" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
