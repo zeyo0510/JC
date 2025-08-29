@@ -8,7 +8,7 @@ using System.Text;
 /************************************************/
 namespace JC.Lib.CS.Common
 {
-  static partial class StringHelper
+  partial class StringHelper
   {
     private enum _EXTENDED_NAME_FORMAT_
     {
