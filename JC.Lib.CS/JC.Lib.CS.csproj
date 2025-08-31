@@ -56,6 +56,10 @@
     <Compile Include="Common\IconHelper.ExtractIconFromDll.cs">
       <DependentUpon>IconHelper.cs</DependentUpon>
     </Compile>
+    <Compile Include="Common\StringExtensions.cs" />
+    <Compile Include="Common\StringExtensions.ParseResourceString.cs">
+      <DependentUpon>StringExtensions.cs</DependentUpon>
+    </Compile>
     <Compile Include="Common\StringHelper.cs" />
     <Compile Include="Common\StringHelper.ExtractStringFromDll.cs">
       <DependentUpon>StringHelper.cs</DependentUpon>
