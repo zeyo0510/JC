@@ -48,6 +48,10 @@
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\DesktopHelper.cs" />
+    <Compile Include="Common\DesktopHelper.RefreshDesktop.cs">
+      <DependentUpon>DesktopHelper.cs</DependentUpon>
+    </Compile>
     <Compile Include="Common\GraphicsExtensions.cs" />
     <Compile Include="Common\GraphicsExtensions.FillRoundedRectangle.cs">
       <DependentUpon>GraphicsExtensions.cs</DependentUpon>
