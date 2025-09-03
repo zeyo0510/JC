@@ -8,7 +8,7 @@ namespace JC.Lib.CS.Common
 {
   partial class StringExtensions
   {
-    [DllImportAttribute("shlwapi.dll", EntryPoint = "SHLoadIndirectString")]
+    [DllImportAttribute("shlwapi.dll", EntryPoint = "SHLoadIndirectString", CharSet = CharSet.Unicode)]
     private static extern int _SH_LOAD_INDIRECT_STRING_(string _PSZ_SOURCE_, StringBuilder _PSZ_OUT_BUF_, int _CCH_OUT_BUF_, IntPtr _PPV_RESERVED_);
     /************************************************/
     public static string IndirectResourceString(this string s)
