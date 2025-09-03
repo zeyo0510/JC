@@ -61,6 +61,9 @@
       <DependentUpon>IconHelper.cs</DependentUpon>
     </Compile>
     <Compile Include="Common\StringExtensions.cs" />
+    <Compile Include="Common\StringExtensions.IndirectResourceString.cs">
+      <DependentUpon>StringExtensions.cs</DependentUpon>
+    </Compile>
     <Compile Include="Common\StringExtensions.ParseResourceString.cs">
       <DependentUpon>StringExtensions.cs</DependentUpon>
     </Compile>

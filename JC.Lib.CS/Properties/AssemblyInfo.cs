@@ -10,5 +10,5 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyProduct("JC")]
 [assembly: AssemblyTitle("JC.Lib.CS")]
 [assembly: AssemblyTrademark("")]
-[assembly: AssemblyVersion("2025.09.01")]
+[assembly: AssemblyVersion("2025.09.04")]
 [assembly: ComVisible(false)]
