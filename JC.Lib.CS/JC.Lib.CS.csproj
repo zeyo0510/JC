@@ -234,12 +234,29 @@
       <DependentUpon>Extremum.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Shell\DesktopIcon.cs" />
+    <Compile Include="Shell\DesktopIcon.GUID.cs">
+      <DependentUpon>DesktopIcon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shell\DesktopIcon.Icon.cs">
+      <DependentUpon>DesktopIcon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shell\DesktopIcon.Items.cs">
+      <DependentUpon>DesktopIcon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shell\DesktopIcon.Name.cs">
+      <DependentUpon>DesktopIcon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Shell\DesktopIcon.Visible.cs">
+      <DependentUpon>DesktopIcon.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controls" />
     <Folder Include="Development" />
     <Folder Include="Common" />
     <Folder Include="Mathematics" />
+    <Folder Include="Shell" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
