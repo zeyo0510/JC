@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# SharpDevelop 5.1
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JC.App.DesktopIconEditor", "JC.App.DesktopIconEditor.csproj", "{BB6ACAFE-66ED-4616-BECB-DABFDA4E0896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JC.Lib.CS", "..\JC.Lib.CS\JC.Lib.CS.csproj", "{83641FF4-EF4C-43C7-AE93-1ABFB27A3256}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB6ACAFE-66ED-4616-BECB-DABFDA4E0896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB6ACAFE-66ED-4616-BECB-DABFDA4E0896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB6ACAFE-66ED-4616-BECB-DABFDA4E0896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB6ACAFE-66ED-4616-BECB-DABFDA4E0896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83641FF4-EF4C-43C7-AE93-1ABFB27A3256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83641FF4-EF4C-43C7-AE93-1ABFB27A3256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83641FF4-EF4C-43C7-AE93-1ABFB27A3256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83641FF4-EF4C-43C7-AE93-1ABFB27A3256}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
