@@ -53,6 +53,9 @@
       <DependentUpon>DesktopHelper.cs</DependentUpon>
     </Compile>
     <Compile Include="Common\GraphicsExtensions.cs" />
+    <Compile Include="Common\GraphicsExtensions.DrawPixel.cs">
+      <DependentUpon>GraphicsExtensions.cs</DependentUpon>
+    </Compile>
     <Compile Include="Common\GraphicsExtensions.FillRoundedRectangle.cs">
       <DependentUpon>GraphicsExtensions.cs</DependentUpon>
     </Compile>
