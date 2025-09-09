@@ -56,6 +56,9 @@
     <Compile Include="Common\GraphicsExtensions.DrawPixel.cs">
       <DependentUpon>GraphicsExtensions.cs</DependentUpon>
     </Compile>
+    <Compile Include="Common\GraphicsExtensions.DrawPixelCircle.cs">
+      <DependentUpon>GraphicsExtensions.cs</DependentUpon>
+    </Compile>
     <Compile Include="Common\GraphicsExtensions.FillRoundedRectangle.cs">
       <DependentUpon>GraphicsExtensions.cs</DependentUpon>
     </Compile>
