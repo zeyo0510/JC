@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JC.Lib", "JC.Lib\JC.Lib.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JC.App", "JC.App\JC.App.csproj", "{0F8ABABF-BF75-453A-81F2-6ABC1BDD079B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JC.App.DotnetFrameworkViewer", "JC.App.DotnetFrameworkViewer\JC.App.DotnetFrameworkViewer.csproj", "{FB65FC47-EBA4-432A-8534-9E596687975E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{0F8ABABF-BF75-453A-81F2-6ABC1BDD079B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F8ABABF-BF75-453A-81F2-6ABC1BDD079B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F8ABABF-BF75-453A-81F2-6ABC1BDD079B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB65FC47-EBA4-432A-8534-9E596687975E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB65FC47-EBA4-432A-8534-9E596687975E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB65FC47-EBA4-432A-8534-9E596687975E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB65FC47-EBA4-432A-8534-9E596687975E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
