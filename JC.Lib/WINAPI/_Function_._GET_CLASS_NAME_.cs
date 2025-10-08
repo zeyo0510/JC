@@ -11,9 +11,9 @@ namespace JC.Lib.WINAPI;
 partial class _Function_
 {
   [DllImport("user32.dll", EntryPoint = "GetClassName", SetLastError = true)]
-  internal static extern int _GET_CLASS_NAME_(
+  internal static extern Int32 _GET_CLASS_NAME_(
     IntPtr _H_WND_,
     StringBuilder _LP_CLASS_NAME_,
-    int _N_MAX_COUNT_
+    Int32 _N_MAX_COUNT_
   );
 }

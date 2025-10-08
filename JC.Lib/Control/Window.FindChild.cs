@@ -12,7 +12,7 @@ partial class Window
     /************************************************/
     nint childNadle = nint.Zero;
     /************************************************/
-    if (afterWindow == null) childNadle = _Function_._FIND_WINDOW_EX_(this.Handle, IntPtr.Zero       , className, windowName);
+    if (afterWindow == null) childNadle = _Function_._FIND_WINDOW_EX_(this.Handle, nint.Zero         , className, windowName);
     if (afterWindow != null) childNadle = _Function_._FIND_WINDOW_EX_(this.Handle, afterWindow.Handle, className, windowName);
     /************************************************/
     if (childNadle != nint.Zero)

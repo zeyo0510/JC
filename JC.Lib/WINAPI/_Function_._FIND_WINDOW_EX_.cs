@@ -12,7 +12,7 @@ partial class _Function_
   internal static extern IntPtr _FIND_WINDOW_EX_(
     IntPtr _H_WND_PARENT_,
     IntPtr _H_WND_CHILD_AFTER,
-    string _LPSZ_CLASS_,
-    string _LPSZ_WINDOW_
+    String _LPSZ_CLASS_,
+    String _LPSZ_WINDOW_
   );
 }
